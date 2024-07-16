@@ -1,0 +1,10 @@
+/* HERO SECTION */
+.hero-section {
+    margin-top: 80px;
+    height: 600px;
+    width: 100vw;
+    padding: 60px 0 40px;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+  }
