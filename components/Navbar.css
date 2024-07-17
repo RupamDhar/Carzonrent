@@ -1,5 +1,5 @@
 /* NAVBAR */
-.navbar {
+.carzonrent-navbar {
     z-index: 9999;
     position: fixed;
     top: 0;
@@ -12,25 +12,26 @@
     color: white;
     background-color: black;
     box-sizing: border-box;
-  }
-  
-  .nav-interact {
+}
+
+.nav-interact {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-  }
-  
-  .nav-hrefs-wrapper {
+}
+
+.nav-hrefs-wrapper {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
     cursor: pointer;
-  }
-  .nav-hrefs {
+}
+
+.nav-hrefs {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,14 +39,15 @@
     color: white;
     font-weight: 600;
     transition: all 0.15s ease-in-out;
-  }
-  .nav-hrefs:hover {
+}
+
+.nav-hrefs:hover {
     color: var(--theme-yellow);
     border-bottom: 4px solid var(--theme-yellow);
     transform: translateY(-2px);
-  }
-  
-  .login-signup-btn {
+}
+
+.login-signup-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,9 +62,9 @@
     /* background: linear-gradient(180deg, #FFE787 0%, #FC0 100%); */
     cursor: pointer;
     transition: all 0.15s ease-in-out;
-  }
-  .login-signup-btn:hover {
+}
+
+.login-signup-btn:hover {
     background-color: black;
     color: var(--theme-yellow);
-  }
-  
+}

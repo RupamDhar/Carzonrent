@@ -1,97 +1,38 @@
-/* NAVBAR */
-.navbar {
-  z-index: 9999;
-  position: fixed;
-  top: 0;
-  padding: 0 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 80px;
-  width: 100vw;
-  color: white;
-  background-color: black;
-  box-sizing: border-box;
+.section-header {
+    padding-bottom: 20px;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
 }
 
-.nav-interact {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
+.about-us-wrapper {
+    height: fit-content;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
 }
-
-.nav-hrefs-wrapper {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  cursor: pointer;
+.about-us {
+    width: 80%;
 }
-.nav-hrefs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 0;
-  color: white;
-  font-weight: 600;
-  transition: all 0.15s ease-in-out;
+.about-us-header {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #343434;
 }
-.nav-hrefs:hover {
-  color: var(--theme-yellow);
-  border-bottom: 4px solid var(--theme-yellow);
-  transform: translateY(-2px);
+.about-us-body {
+    margin-bottom: 20px;
+    color: #797979;
 }
-
-.login-signup-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 0 20px;
-  height: 55%;
-  border-radius: 10px;
-  font-weight: 600;
-  border: 2px solid var(--theme-yellow);
-  color: black;
-  background-color: #fc0;
-  /* background: linear-gradient(180deg, #FFE787 0%, #FC0 100%); */
-  cursor: pointer;
-  transition: all 0.15s ease-in-out;
+.read-more-btn {
+    padding: 10px 25px;
+    border: 1px solid var(--theme-yellow);
+    border-radius: 100px;
+    color: var(--theme-yellow);
+    transition: all 0.15s ease-in-out;
 }
-.login-signup-btn:hover {
-  background-color: black;
-  color: var(--theme-yellow);
+.read-more-btn:hover {
+    background-color: var(--theme-yellow);
+    color: black;
 }
-
-
-
-
-
-
-
-
-
-
-/* HERO SECTION */
-.hero-section {
-  margin-top: 80px;
-  height: 600px;
-  width: 100vw;
-  padding: 60px 0 40px;
-  box-sizing: border-box;
-  color: white;
-  background-color: black;
-}
-
-
-
-
-
-
-
-
-
-

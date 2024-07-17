@@ -1,56 +1,57 @@
 /* ELEVATE TRAVEL EXPERIENCE */
 .elevate-travel-experiences-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;
-    width: 100vw;
-    padding: 60px 0 170px;
-    box-sizing: border-box;
-    background-color: white;
-  }
-  .section-header {
-    padding-bottom: 20px;
-    font-size: 42px;
-    font-weight: 600;
-    text-align: center;
-  }
-  .elevate-travel-experiences-section > p {
-    width: 500px;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    color: #797979;
-  }
-  .travel-experience-offerings {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 35px;
-  }
-  .travel-experience-offerings-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: fit-content;
-    gap: 30px;
-  }
-  .offering-img.left {
-    height: 560px;
-    width: 500px;
-  }
-  .offering-img.right {
-    height: 260px;
-    width: 465px;
-  }
-  .hidden-img {
-    transform: scale(0);
-    opacity: 0;
-    transition: all 0.2s ease;
-  }
-  .show-img {
-    transform: scale(1);
-    opacity: 1;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 100vw;
+  padding: 60px 0 170px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.elevate-travel-experiences-section>p {
+  width: 500px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #797979;
+}
+
+.travel-experience-offerings {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.travel-experience-offerings-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: fit-content;
+  gap: 30px;
+}
+
+.offering-img.left {
+  height: 560px;
+  width: 500px;
+}
+
+.offering-img.right {
+  height: 260px;
+  width: 465px;
+}
+
+.hidden-img {
+  transform: scale(0);
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+.show-img {
+  transform: scale(1);
+  opacity: 1;
+}

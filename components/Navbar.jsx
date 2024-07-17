@@ -3,7 +3,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <div className="navbar">
+        <div className="carzonrent-navbar">
             <div className="left-logo">
                 <img src="https://www.carzonrent.com/webcor/images/img/cor_logo.svg?v=2028" alt="" />
             </div>
