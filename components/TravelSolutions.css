@@ -32,13 +32,11 @@
   color: #191f1a;
   cursor: pointer;
 }
-
 .arrow {
   margin-left: 20px;
   transition: all 0.2s ease-in-out;
 }
-
-.travel-sol-info-header:hover .arrow {
+.travel-sol-info-header:hover .arrow{
   margin-left: 30px;
 }
 
@@ -55,7 +53,6 @@
   opacity: 0;
   transition: all 0.5s ease;
 }
-
 .hidden-sol-right {
   transform: translateX(100px);
   opacity: 0;
@@ -65,53 +62,4 @@
 .show-sol {
   transform: translateX(0);
   opacity: 1;
-}
-
-@media(max-width:1080px) {
-  .travel-solution {
-    margin-bottom: 40px;
-    padding: 0 10px;
-    flex-wrap: wrap;
-  }
-  .premium-travel-solutions-wrapper {
-    width: 100%;
-  }
-  .travel-solution-img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  .section-header {
-    padding-bottom: 10px;
-  }
-  .travel-sol-info {
-    width: 100%;
-  }
-  .travel-sol-info-header {
-    margin-top: 10px;
-    font-size: 16px;
-  }
-  .travel-sol-info-body {
-    margin: 10px 0;
-    width: 100%;
-    font-size: 14px;
-    line-height: normal;
-  }
-  .hidden-sol-left {
-    transform: translateX(-50px);
-    opacity: 0;
-    transition: all 0.5s ease;
-    line-height: normal;
-  }
-  .hidden-sol-right {
-    line-height: normal;
-    transform: translateX(50px);
-    opacity: 0;
-    transition: all 0.5s ease;
-    flex-direction: column-reverse;
-  }
-  .show-sol {
-    opacity: 1;
-    transform: translateX(0);
-  }
 }

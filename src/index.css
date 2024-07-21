@@ -9,10 +9,6 @@
 }
 body {
   box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
 }
 body::-webkit-scrollbar {
   width: 0;

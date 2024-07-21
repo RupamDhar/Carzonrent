@@ -46,9 +46,3 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: var(--theme-yellow);
 }
-
-@media(max-width:1080px) {
-    .self-drive-section {
-        display: none;
-    }
-}

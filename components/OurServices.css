@@ -61,29 +61,3 @@
     color: #f6c507;
     cursor: pointer;
 }
-
-
-@media(max-width:1080px) {
-    .sub-section-header {
-        margin-bottom: 25px;
-        font-size: 18px;
-    }
-    .view-more {
-        font-size: 14px;
-    }
-    .category-card-wrapper {
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-    .category-card-wrapper img {
-        margin-bottom: 2px;
-        width: 100%;
-        height: auto;
-    }
-    .services-section {
-        width: 95%;
-    }
-    .category-card {
-        width: 100%;
-    }
-}

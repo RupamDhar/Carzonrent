@@ -78,13 +78,3 @@
 .faqontentanswer p {
     margin: 0;
 }
-
-/* Faq.css */
-
-.overflow-hidden {
-    transition-property: max-height;
-}
-
-@media(max-width:1080px) {
-    
-}
