@@ -36,3 +36,16 @@
     background-color: var(--theme-yellow);
     color: black;
 }
+
+@media(max-width:1080px) {
+    .read-more-btn {
+        width: 100%;
+    }
+    .section-header {
+        padding-bottom: 10px;
+        font-size: 22px;
+    }
+    .about-us {
+        width: 95%;
+    }
+}
